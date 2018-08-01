@@ -120,6 +120,7 @@ class secondViewController: UIViewController {
             }
         } else {
             water.image = #imageLiteral(resourceName: "flower_seichou9.png")
+            giveWater.setTitle("やり直す", for: .normal)
         }
         // Do any additional setup after loading the view.
     }
