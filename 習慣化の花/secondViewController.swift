@@ -28,6 +28,7 @@ class secondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let realm = try! Realm()
         // background image
         let bg = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
         bg.image = UIImage(named: "background2.png")
@@ -130,7 +131,10 @@ class secondViewController: UIViewController {
                 }
             }
         } else {
-            water.image = #imageLiteral(resourceName: "flower_seichou9.png")
+            flower.image = #imageLiteral(resourceName: "flower_seichou9.png")
+            flowerPosi.constant = 140
+            flowerWidth.constant = 110
+            flowerHeight.constant = 110
             giveWater.setTitle("やり直す", for: .normal)
         }
         // Do any additional setup after loading the view.
