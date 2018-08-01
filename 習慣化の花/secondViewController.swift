@@ -47,31 +47,40 @@ class secondViewController: UIViewController {
         //日付をStringに変換する
         tDate = format.string(from: date)
         yDate = format.string(from: day_yesterday!)
-        if recieve.day == tDate || recieve.day == yDate {
+        print(recieve.date)
+        if recieve.date > 6 {
+            print(recieve.date)
+            flower.image = #imageLiteral(resourceName: "flower_seichou8.png")
+            flowerPosi.constant = 140
+            flowerWidth.constant = 170
+            flowerHeight.constant = 170
+            giveWater.isEnabled = false
+            giveWater.setTitle("習慣化済み", for: .normal)
+            giveWater.isEnabled = false
+        } else if recieve.day == tDate || recieve.day == yDate {
             if recieve.did == false {
                 giveWater.isEnabled = true
-                if recieve.date == 7 {
-                    flower.image = #imageLiteral(resourceName: "flower_seichou7.png")
-                    flowerWidth.constant = 170
-                    flowerHeight.constant = 170
-                }
                 if recieve.date == 6 {
                     flower.image = #imageLiteral(resourceName: "flower_seichou6.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 160
                     flowerHeight.constant = 160
                 }
                 if recieve.date == 5{
                     flower.image = #imageLiteral(resourceName: "flower_seichou5.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 150
                     flowerHeight.constant = 150
                 }
                 if recieve.date == 4 {
                     flower.image = #imageLiteral(resourceName: "flower_seichou4.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 140
                     flowerHeight.constant = 140
                 }
                 if recieve.date == 3 {
                     flower.image = #imageLiteral(resourceName: "flower_seichou3.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 130
                     flowerHeight.constant = 130
                 }
@@ -83,33 +92,33 @@ class secondViewController: UIViewController {
                 }
             } else if recieve.did == true {
                 giveWater.isEnabled = false
-                if recieve.date == 7 {
-                    flower.image = #imageLiteral(resourceName: "flower_seichou8.png")
-                    flowerWidth.constant = 200
-                    flowerHeight.constant = 200
-                }
                 if recieve.date == 6 {
                     flower.image = #imageLiteral(resourceName: "flower_seichou7.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 170
                     flowerHeight.constant = 170
                 }
                 if recieve.date == 5 {
                     flower.image = #imageLiteral(resourceName: "flower_seichou6.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 160
                     flowerHeight.constant = 160
                 }
                 if recieve.date == 4{
                     flower.image = #imageLiteral(resourceName: "flower_seichou5.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 150
                     flowerHeight.constant = 150
                 }
                 if recieve.date == 3 {
                     flower.image = #imageLiteral(resourceName: "flower_seichou4.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 140
                     flowerHeight.constant = 140
                 }
                 if recieve.date == 2 {
                     flower.image = #imageLiteral(resourceName: "flower_seichou3.png")
+                    flowerPosi.constant = 140
                     flowerWidth.constant = 130
                     flowerHeight.constant = 130
                 }
