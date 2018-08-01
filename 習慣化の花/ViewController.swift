@@ -21,7 +21,7 @@ class Habit: Object {
     
 }
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate
  {
     var habits:Results<Habit>?
     var send = Habit()
@@ -33,6 +33,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        TextField.delegate = self
         // background image
         let bg = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
         bg.image = UIImage(named: "background.png")
@@ -112,6 +113,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         send = habits![indexPath.row]
         self.performSegue(withIdentifier: "toSecond", sender: nil)
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toSecond" {
             
@@ -122,6 +124,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             secondViewController.recieve = self.send
         }
+    }
+    func textFieldShouldReturn(_ TextField: UITextField) -> Bool{
+        // キーボードを閉じる
+        TextField.resignFirstResponder()
+        return true
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
