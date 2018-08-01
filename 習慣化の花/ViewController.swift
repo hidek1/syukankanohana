@@ -102,6 +102,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel!.textColor = UIColor.red
             cell.detailTextLabel!.textColor = UIColor.red
         }
+        if habits![indexPath.row].date > 6{
+            cell.textLabel!.textColor = UIColor.green
+            cell.detailTextLabel!.textColor = UIColor.green
+        }
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
