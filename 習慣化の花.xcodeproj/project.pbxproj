@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4118DDF694475C2E04A3C1 /* Pods______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58715971868A765243E2648 /* Pods______Tests.framework */; };
+		3BFB673B3758FFAC769308D3 /* Pods______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1397092F88122A2EF8D4668 /* Pods______UITests.framework */; };
+		71A2D48C20F6754200954E38 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A2D48B20F6754200954E38 /* Realm.framework */; };
+		71A2D48E20F6754200954E38 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A2D48D20F6754200954E38 /* RealmSwift.framework */; };
 		71B2C45B20F626CC00C4E510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2C45A20F626CC00C4E510 /* AppDelegate.swift */; };
 		71B2C45D20F626CC00C4E510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2C45C20F626CC00C4E510 /* ViewController.swift */; };
 		71B2C46020F626CC00C4E510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C45E20F626CC00C4E510 /* Main.storyboard */; };
@@ -14,6 +18,25 @@
 		71B2C46520F626CF00C4E510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C46320F626CF00C4E510 /* LaunchScreen.storyboard */; };
 		71B2C47020F626CF00C4E510 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2C46F20F626CF00C4E510 /* _____Tests.swift */; };
 		71B2C47B20F626CF00C4E510 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2C47A20F626CF00C4E510 /* _____UITests.swift */; };
+		71B2C48920F62C5B00C4E510 /* flower_seichou1.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C48820F62C5B00C4E510 /* flower_seichou1.png */; };
+		71B2C48B20F62C6100C4E510 /* flower_seichou2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C48A20F62C6100C4E510 /* flower_seichou2.png */; };
+		71B2C49720F62C7C00C4E510 /* uekibachi01_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C48C20F62C7A00C4E510 /* uekibachi01_08.png */; };
+		71B2C49820F62C7C00C4E510 /* flower_seichou5.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C48D20F62C7A00C4E510 /* flower_seichou5.png */; };
+		71B2C49920F62C7C00C4E510 /* flower_seichou9.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C48E20F62C7B00C4E510 /* flower_seichou9.png */; };
+		71B2C49A20F62C7C00C4E510 /* uekibachi01_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C48F20F62C7B00C4E510 /* uekibachi01_06.png */; };
+		71B2C49B20F62C7C00C4E510 /* flower_seichou7.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C49020F62C7B00C4E510 /* flower_seichou7.png */; };
+		71B2C49C20F62C7C00C4E510 /* flower_seichou3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C49120F62C7B00C4E510 /* flower_seichou3.png */; };
+		71B2C49D20F62C7C00C4E510 /* flower_seichou4.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C49220F62C7B00C4E510 /* flower_seichou4.png */; };
+		71B2C49E20F62C7C00C4E510 /* uekibachi01_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C49320F62C7B00C4E510 /* uekibachi01_05.png */; };
+		71B2C49F20F62C7C00C4E510 /* flower_seichou8.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C49420F62C7B00C4E510 /* flower_seichou8.png */; };
+		71B2C4A020F62C7C00C4E510 /* flower_seichou6.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C49520F62C7C00C4E510 /* flower_seichou6.png */; };
+		71B2C4A120F62C7C00C4E510 /* uekibachi01_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C49620F62C7C00C4E510 /* uekibachi01_07.png */; };
+		71B2C4A320F6453700C4E510 /* gatag-00009009.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B2C4A220F6453700C4E510 /* gatag-00009009.png */; };
+		71D207BB21104AB2005123B4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D207BA21104AB1005123B4 /* background.png */; };
+		71D207BD21108FA1005123B4 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D207BC21108FA0005123B4 /* background2.png */; };
+		71D207BF2110992A005123B4 /* 花.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D207BE2110992A005123B4 /* 花.png */; };
+		71D207C1211180D8005123B4 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D207C0211180D8005123B4 /* LaunchViewController.swift */; };
+		71E8853B20FC637000D56DC4 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8853A20FC637000D56DC4 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A7D0D552C40CD23F9530984 /* Pods-習慣化の花Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-習慣化の花Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-習慣化の花Tests/Pods-習慣化の花Tests.release.xcconfig"; sourceTree = "<group>"; };
+		71A2D48B20F6754200954E38 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A2D48D20F6754200954E38 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B2C45720F626CC00C4E510 /* 習慣化の花.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "習慣化の花.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B2C45A20F626CC00C4E510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B2C45C20F626CC00C4E510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,33 @@
 		71B2C47620F626CF00C4E510 /* 習慣化の花UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "習慣化の花UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B2C47A20F626CF00C4E510 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		71B2C47C20F626CF00C4E510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B2C48820F62C5B00C4E510 /* flower_seichou1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou1.png; sourceTree = "<group>"; };
+		71B2C48A20F62C6100C4E510 /* flower_seichou2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou2.png; sourceTree = "<group>"; };
+		71B2C48C20F62C7A00C4E510 /* uekibachi01_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uekibachi01_08.png; sourceTree = "<group>"; };
+		71B2C48D20F62C7A00C4E510 /* flower_seichou5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou5.png; sourceTree = "<group>"; };
+		71B2C48E20F62C7B00C4E510 /* flower_seichou9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou9.png; sourceTree = "<group>"; };
+		71B2C48F20F62C7B00C4E510 /* uekibachi01_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uekibachi01_06.png; sourceTree = "<group>"; };
+		71B2C49020F62C7B00C4E510 /* flower_seichou7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou7.png; sourceTree = "<group>"; };
+		71B2C49120F62C7B00C4E510 /* flower_seichou3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou3.png; sourceTree = "<group>"; };
+		71B2C49220F62C7B00C4E510 /* flower_seichou4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou4.png; sourceTree = "<group>"; };
+		71B2C49320F62C7B00C4E510 /* uekibachi01_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uekibachi01_05.png; sourceTree = "<group>"; };
+		71B2C49420F62C7B00C4E510 /* flower_seichou8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou8.png; sourceTree = "<group>"; };
+		71B2C49520F62C7C00C4E510 /* flower_seichou6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_seichou6.png; sourceTree = "<group>"; };
+		71B2C49620F62C7C00C4E510 /* uekibachi01_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uekibachi01_07.png; sourceTree = "<group>"; };
+		71B2C4A220F6453700C4E510 /* gatag-00009009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gatag-00009009.png"; sourceTree = "<group>"; };
+		71D207BA21104AB1005123B4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		71D207BC21108FA0005123B4 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		71D207BE2110992A005123B4 /* 花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "花.png"; sourceTree = "<group>"; };
+		71D207C0211180D8005123B4 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		71E8853A20FC637000D56DC4 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		742292AF0089211B1AF2F4EF /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1397092F88122A2EF8D4668 /* Pods______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4370A0082D0A3AF62D65E93 /* Pods-習慣化の花Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-習慣化の花Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-習慣化の花Tests/Pods-習慣化の花Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2B28B9114C1D22AB376B10 /* Pods-習慣化の花UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-習慣化の花UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-習慣化の花UITests/Pods-習慣化の花UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C58715971868A765243E2648 /* Pods______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB72BB3704E6EC91198DD0A9 /* Pods-習慣化の花UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-習慣化の花UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-習慣化の花UITests/Pods-習慣化の花UITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDB1FEDBCF59AD71A6EC5871 /* Pods-習慣化の花.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-習慣化の花.debug.xcconfig"; path = "Pods/Target Support Files/Pods-習慣化の花/Pods-習慣化の花.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB42170C3D59E41816CE13B /* Pods-習慣化の花.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-習慣化の花.release.xcconfig"; path = "Pods/Target Support Files/Pods-習慣化の花/Pods-習慣化の花.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A2D48C20F6754200954E38 /* Realm.framework in Frameworks */,
+				71A2D48E20F6754200954E38 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4118DDF694475C2E04A3C1 /* Pods______Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +124,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFB673B3758FFAC769308D3 /* Pods______UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DB67F01D4435E0E6EE7CBD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDB1FEDBCF59AD71A6EC5871 /* Pods-習慣化の花.debug.xcconfig */,
+				FFB42170C3D59E41816CE13B /* Pods-習慣化の花.release.xcconfig */,
+				B4370A0082D0A3AF62D65E93 /* Pods-習慣化の花Tests.debug.xcconfig */,
+				0A7D0D552C40CD23F9530984 /* Pods-習慣化の花Tests.release.xcconfig */,
+				BA2B28B9114C1D22AB376B10 /* Pods-習慣化の花UITests.debug.xcconfig */,
+				EB72BB3704E6EC91198DD0A9 /* Pods-習慣化の花UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		71B2C44E20F626CC00C4E510 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +151,8 @@
 				71B2C46E20F626CF00C4E510 /* 習慣化の花Tests */,
 				71B2C47920F626CF00C4E510 /* 習慣化の花UITests */,
 				71B2C45820F626CC00C4E510 /* Products */,
+				1DB67F01D4435E0E6EE7CBD3 /* Pods */,
+				CBC187C562C1857BFFFB54AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +171,27 @@
 			children = (
 				71B2C45A20F626CC00C4E510 /* AppDelegate.swift */,
 				71B2C45C20F626CC00C4E510 /* ViewController.swift */,
+				71E8853A20FC637000D56DC4 /* secondViewController.swift */,
+				71D207C0211180D8005123B4 /* LaunchViewController.swift */,
 				71B2C45E20F626CC00C4E510 /* Main.storyboard */,
+				71B2C48820F62C5B00C4E510 /* flower_seichou1.png */,
+				71B2C48A20F62C6100C4E510 /* flower_seichou2.png */,
+				71B2C49120F62C7B00C4E510 /* flower_seichou3.png */,
+				71B2C49220F62C7B00C4E510 /* flower_seichou4.png */,
+				71B2C48D20F62C7A00C4E510 /* flower_seichou5.png */,
+				71B2C49520F62C7C00C4E510 /* flower_seichou6.png */,
+				71B2C49020F62C7B00C4E510 /* flower_seichou7.png */,
+				71B2C49420F62C7B00C4E510 /* flower_seichou8.png */,
+				71B2C48E20F62C7B00C4E510 /* flower_seichou9.png */,
+				71B2C49320F62C7B00C4E510 /* uekibachi01_05.png */,
+				71B2C48F20F62C7B00C4E510 /* uekibachi01_06.png */,
+				71B2C49620F62C7C00C4E510 /* uekibachi01_07.png */,
+				71B2C48C20F62C7A00C4E510 /* uekibachi01_08.png */,
+				71B2C4A220F6453700C4E510 /* gatag-00009009.png */,
 				71B2C46120F626CF00C4E510 /* Assets.xcassets */,
+				71D207BA21104AB1005123B4 /* background.png */,
+				71D207BC21108FA0005123B4 /* background2.png */,
+				71D207BE2110992A005123B4 /* 花.png */,
 				71B2C46320F626CF00C4E510 /* LaunchScreen.storyboard */,
 				71B2C46620F626CF00C4E510 /* Info.plist */,
 			);
@@ -125,6 +216,18 @@
 			path = "習慣化の花UITests";
 			sourceTree = "<group>";
 		};
+		CBC187C562C1857BFFFB54AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71A2D48B20F6754200954E38 /* Realm.framework */,
+				71A2D48D20F6754200954E38 /* RealmSwift.framework */,
+				742292AF0089211B1AF2F4EF /* Pods______.framework */,
+				C58715971868A765243E2648 /* Pods______Tests.framework */,
+				A1397092F88122A2EF8D4668 /* Pods______UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71B2C47F20F626CF00C4E510 /* Build configuration list for PBXNativeTarget "習慣化の花" */;
 			buildPhases = (
+				F648D8C3122E5B707A8118EE /* [CP] Check Pods Manifest.lock */,
 				71B2C45320F626CC00C4E510 /* Sources */,
 				71B2C45420F626CC00C4E510 /* Frameworks */,
 				71B2C45520F626CC00C4E510 /* Resources */,
+				846C107D8E967A9868837A8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71B2C48220F626CF00C4E510 /* Build configuration list for PBXNativeTarget "習慣化の花Tests" */;
 			buildPhases = (
+				CD540DF818015B42A060292E /* [CP] Check Pods Manifest.lock */,
 				71B2C46720F626CF00C4E510 /* Sources */,
 				71B2C46820F626CF00C4E510 /* Frameworks */,
 				71B2C46920F626CF00C4E510 /* Resources */,
@@ -167,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71B2C48520F626CF00C4E510 /* Build configuration list for PBXNativeTarget "習慣化の花UITests" */;
 			buildPhases = (
+				FF86E883FC82858AE3F6EB2E /* [CP] Check Pods Manifest.lock */,
 				71B2C47220F626CF00C4E510 /* Sources */,
 				71B2C47320F626CF00C4E510 /* Frameworks */,
 				71B2C47420F626CF00C4E510 /* Resources */,
@@ -229,8 +336,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B2C48B20F62C6100C4E510 /* flower_seichou2.png in Resources */,
+				71D207BF2110992A005123B4 /* 花.png in Resources */,
+				71B2C4A120F62C7C00C4E510 /* uekibachi01_07.png in Resources */,
+				71B2C49C20F62C7C00C4E510 /* flower_seichou3.png in Resources */,
+				71D207BD21108FA1005123B4 /* background2.png in Resources */,
+				71B2C49A20F62C7C00C4E510 /* uekibachi01_06.png in Resources */,
 				71B2C46520F626CF00C4E510 /* LaunchScreen.storyboard in Resources */,
+				71B2C49820F62C7C00C4E510 /* flower_seichou5.png in Resources */,
+				71B2C49720F62C7C00C4E510 /* uekibachi01_08.png in Resources */,
+				71D207BB21104AB2005123B4 /* background.png in Resources */,
+				71B2C49F20F62C7C00C4E510 /* flower_seichou8.png in Resources */,
+				71B2C49B20F62C7C00C4E510 /* flower_seichou7.png in Resources */,
+				71B2C48920F62C5B00C4E510 /* flower_seichou1.png in Resources */,
+				71B2C49D20F62C7C00C4E510 /* flower_seichou4.png in Resources */,
+				71B2C49920F62C7C00C4E510 /* flower_seichou9.png in Resources */,
+				71B2C4A020F62C7C00C4E510 /* flower_seichou6.png in Resources */,
 				71B2C46220F626CF00C4E510 /* Assets.xcassets in Resources */,
+				71B2C49E20F62C7C00C4E510 /* uekibachi01_05.png in Resources */,
+				71B2C4A320F6453700C4E510 /* gatag-00009009.png in Resources */,
 				71B2C46020F626CC00C4E510 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +375,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		846C107D8E967A9868837A8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-習慣化の花/Pods-習慣化の花-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-習慣化の花/Pods-習慣化の花-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD540DF818015B42A060292E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-習慣化の花Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F648D8C3122E5B707A8118EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-習慣化の花-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF86E883FC82858AE3F6EB2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-習慣化の花UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71B2C45320F626CC00C4E510 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				71B2C45D20F626CC00C4E510 /* ViewController.swift in Sources */,
+				71E8853B20FC637000D56DC4 /* secondViewController.swift in Sources */,
 				71B2C45B20F626CC00C4E510 /* AppDelegate.swift in Sources */,
+				71D207C1211180D8005123B4 /* LaunchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +631,7 @@
 		};
 		71B2C48020F626CF00C4E510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB1FEDBCF59AD71A6EC5871 /* Pods-習慣化の花.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +649,7 @@
 		};
 		71B2C48120F626CF00C4E510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB42170C3D59E41816CE13B /* Pods-習慣化の花.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +667,7 @@
 		};
 		71B2C48320F626CF00C4E510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4370A0082D0A3AF62D65E93 /* Pods-習慣化の花Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +688,7 @@
 		};
 		71B2C48420F626CF00C4E510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7D0D552C40CD23F9530984 /* Pods-習慣化の花Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +709,7 @@
 		};
 		71B2C48620F626CF00C4E510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2B28B9114C1D22AB376B10 /* Pods-習慣化の花UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +729,7 @@
 		};
 		71B2C48720F626CF00C4E510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB72BB3704E6EC91198DD0A9 /* Pods-習慣化の花UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
