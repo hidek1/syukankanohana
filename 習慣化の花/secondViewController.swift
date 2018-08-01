@@ -136,10 +136,8 @@ class secondViewController: UIViewController {
             RunLoop.main.add(self.timer!, forMode: .defaultRunLoopMode)
             // Realmのインスタンスを取得
             let realm = try! Realm()
-            // プライマリキーが`1`のBookオブジェクトがすでにあるとき、
             try! realm.write {
                 realm.create(Habit.self, value: ["id": recieve.id, "date": recieve.date, "day": tDate, "did": true], update: true)
-                // タイトルはそのままで値段のプロパティだけを更新することができます。
             }
             giveWater.isEnabled = false
         } else {
@@ -151,6 +149,8 @@ class secondViewController: UIViewController {
                 recieve.day = yDate
                 // タイトルはそのままで値段のプロパティだけを更新することができます。
             }
+            loadView()
+            viewDidLoad()
         }
     }
     func vibrate(amount: Float ,view: UIView) {
@@ -212,6 +212,8 @@ class secondViewController: UIViewController {
     }
     @IBAction func back(_ sender: UIButton) {
         let controller = self.presentingViewController as? ViewController
+        controller?.loadView()
+        controller?.viewDidLoad()
         controller?.TableView.reloadData()
         dismiss(animated: true, completion: nil)
     }
