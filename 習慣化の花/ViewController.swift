@@ -66,7 +66,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let habit = Habit() //Habitモデルのオブジェクトを取得
             habit.id = maxId + 1
             habit.name = Text
-            habit.date = 1
+            habit.date = 0
             habit.did = false
             habit.day = yDate
             try! realm.write {
@@ -88,7 +88,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.backgroundColor = .clear
         // セルに表示する値を設定する
         cell.textLabel!.text = "\(habits![indexPath.row].name)"
-        if habits![indexPath.row].day == tDate {
+        if habits![indexPath.row].day == yDate {
             // Realmのインスタンスを取得
             let realm = try! Realm()
             try! realm.write {

@@ -45,8 +45,8 @@ class secondViewController: UIViewController {
         let format = DateFormatter()
         format.dateFormat = "yyyy/MM/dd"
         //日付をStringに変換する
-        let tDate = format.string(from: date)
-        let yDate = format.string(from: day_yesterday!)
+        tDate = format.string(from: date)
+        yDate = format.string(from: day_yesterday!)
         if recieve.day == tDate || recieve.day == yDate {
             if recieve.did == false {
                 giveWater.isEnabled = true
@@ -134,15 +134,6 @@ class secondViewController: UIViewController {
             self.vibrate(amount: 10.0 ,view: self.water)
             self.timer = Timer(timeInterval: 1.8, target: self, selector: #selector(self.timerUpdate), userInfo: nil, repeats: false)
             RunLoop.main.add(self.timer!, forMode: .defaultRunLoopMode)
-            let calendar = Calendar.current
-            let date = Date()
-            let day_yesterday = calendar.date(
-                byAdding: .day, value: -1, to: calendar.startOfDay(for: date))
-            let format = DateFormatter()
-            format.dateFormat = "yyyy/MM/dd"
-            //日付をStringに変換する
-            tDate = format.string(from: date)
-            yDate = format.string(from: day_yesterday!)
             // Realmのインスタンスを取得
             let realm = try! Realm()
             // プライマリキーが`1`のBookオブジェクトがすでにあるとき、
