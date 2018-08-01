@@ -11,6 +11,8 @@ import RealmSwift
 class secondViewController: UIViewController {
     var recieve = Habit()
     var timer: Timer?
+    var tDate:String = ""
+    var yDate:String = ""
     
     @IBOutlet weak var TitleLabel: UILabel!
     
@@ -126,24 +128,39 @@ class secondViewController: UIViewController {
     }
 
     @IBAction func feed(_ sender: Any) {
-        water.image = #imageLiteral(resourceName: "gatag-00009009.png")
-        water.isHidden = false
-        self.vibrate(amount: 10.0 ,view: self.water)
-        self.timer = Timer(timeInterval: 1.8, target: self, selector: #selector(self.timerUpdate), userInfo: nil, repeats: false)
-        RunLoop.main.add(self.timer!, forMode: .defaultRunLoopMode)
-        let date = Date()
-        let format = DateFormatter()
-        format.dateFormat = "yyyy/MM/dd"
-        //日付をStringに変換する
-        let tDate = format.string(from: date)
-        // Realmのインスタンスを取得
-        let realm = try! Realm()
-        // プライマリキーが`1`のBookオブジェクトがすでにあるとき、
-        try! realm.write {
-            realm.create(Habit.self, value: ["id": recieve.id, "date": recieve.date, "day": tDate, "did": true], update: true)
-            // タイトルはそのままで値段のプロパティだけを更新することができます。
+        if giveWater.titleLabel?.text != "やり直す" {
+            water.image = #imageLiteral(resourceName: "gatag-00009009.png")
+            water.isHidden = false
+            self.vibrate(amount: 10.0 ,view: self.water)
+            self.timer = Timer(timeInterval: 1.8, target: self, selector: #selector(self.timerUpdate), userInfo: nil, repeats: false)
+            RunLoop.main.add(self.timer!, forMode: .defaultRunLoopMode)
+            let calendar = Calendar.current
+            let date = Date()
+            let day_yesterday = calendar.date(
+                byAdding: .day, value: -1, to: calendar.startOfDay(for: date))
+            let format = DateFormatter()
+            format.dateFormat = "yyyy/MM/dd"
+            //日付をStringに変換する
+            tDate = format.string(from: date)
+            yDate = format.string(from: day_yesterday!)
+            // Realmのインスタンスを取得
+            let realm = try! Realm()
+            // プライマリキーが`1`のBookオブジェクトがすでにあるとき、
+            try! realm.write {
+                realm.create(Habit.self, value: ["id": recieve.id, "date": recieve.date, "day": tDate, "did": true], update: true)
+                // タイトルはそのままで値段のプロパティだけを更新することができます。
+            }
+            giveWater.isEnabled = false
+        } else {
+            // Realmのインスタンスを取得
+            let realm = try! Realm()
+            try! realm.write {
+                recieve.date = 1
+                recieve.did = false
+                recieve.day = yDate
+                // タイトルはそのままで値段のプロパティだけを更新することができます。
+            }
         }
-        giveWater.isEnabled = false
     }
     func vibrate(amount: Float ,view: UIView) {
         if amount > 0 {
